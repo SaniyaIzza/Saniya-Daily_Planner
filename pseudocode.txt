@@ -9,8 +9,7 @@ function renderTodo(item) {
   <li class="list-group-item d-flex justify-content-between align-items-center">
     <h4>${item}</h4>
     <span class="fs-4 text-danger"><i class="bi bi-x-square-fill" id="remove"></i></span>
-  </li>`;
-}
+  </li>`; }
 
 if (localStorage.getItem("TO DO ITEMS")) {
   const itemLocalStorage = JSON.parse(localStorage.getItem("TO DO ITEMS"));
