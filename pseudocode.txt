@@ -27,8 +27,7 @@ function manageLocalStorage(action, item) {
       list_item = list_item.filter(function (todoItem) {
         return todoItem != item
       });
-      break;
-  }
+      break; }
 
   localStorage.setItem("TO DO ITEMS", JSON.stringify(list_item));
 }
