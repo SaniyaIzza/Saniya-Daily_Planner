@@ -29,8 +29,7 @@ function manageLocalStorage(action, item) {
       });
       break; }
 
-  localStorage.setItem("TO DO ITEMS", JSON.stringify(list_item));
-}
+  localStorage.setItem("TO DO ITEMS", JSON.stringify(list_item)); }
 
 form.addEventListener("submit", function (event) {
   renderTodo(inputUser.value);
