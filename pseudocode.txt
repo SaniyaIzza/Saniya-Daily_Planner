@@ -16,8 +16,7 @@ if (localStorage.getItem("TO DO ITEMS")) {
   itemLocalStorage.forEach(function (itemTodo) {
     renderTodo(itemTodo);
     list_item.push(itemTodo);
-  });
-}
+  }); }
 
 function manageLocalStorage(action, item) {
   switch (action) {
@@ -35,11 +34,8 @@ function manageLocalStorage(action, item) {
 }
 
 form.addEventListener("submit", function (event) {
-
   renderTodo(inputUser.value);
-
   manageLocalStorage("TAMBAH", inputUser.value);
-
   inputUser.value = "";
   event.preventDefault();
 
