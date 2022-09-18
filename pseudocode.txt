@@ -42,8 +42,7 @@ form.addEventListener("submit", function (event) {
 listGroup.addEventListener("click", function (event) {
   if (event.target.id == "remove") {
     event.target.parentElement.parentElement.remove();
-    manageLocalStorage("HAPUS", event.target.parentElement.parentElement.textContent.trim());
-  }
+    manageLocalStorage("HAPUS", event.target.parentElement.parentElement.textContent.trim()); }
 });
 
 switchDarkMode.addEventListener('change', function () {
