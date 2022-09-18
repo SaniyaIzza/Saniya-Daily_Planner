@@ -6,9 +6,8 @@ Bucket List adalah sebuah daftar seseorang tentang hal-hal yang ingin dicapai at
 # Repository terdiri dari :
 
 1. README.md
-2. .vscode
-3. Pseudocode.txt
-4. Flowchart.drawio
+2. Pseudocode.txt
+3. Flowchart.drawio
 
 .
 
